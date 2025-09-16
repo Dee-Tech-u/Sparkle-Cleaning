@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  --breakpoint-custom-sm: 540px;
+  --breakpoint-custom-md: 768px;
+}
+@layer components{
+  .grid-1{
+    @apply grid gap-6 mx-auto max-w-full overflow-hidden custom-sm:grid-cols-2 custom-sm:max-w-lg md:grid-cols-2 md:max-w-2xl lg:grid-cols-3 lg:max-w-5xl mt-5 
+  }
+ 
+  .btn{
+    @apply block  bg-gradient-to-br from-purple-600 via-blue-800 to-blue-800 rounded-full w-30 h-12 m-auto mt-2 mb-2 animate-bounce cursor-pointer hover:scale-90
+  }
+} 
+@layer base{
+  a{
+    @apply text-white
+  }
+}
