@@ -1,9 +1,9 @@
 {
-  "name": "sparkle",
+  "name": "Sparkle-Cleaning",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Dee-Tech-u.github.io/Sparkle-Cleaning",
+  "homepage": "https://github.com/Dee-Tech-u/Sparkle-Cleaning",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
