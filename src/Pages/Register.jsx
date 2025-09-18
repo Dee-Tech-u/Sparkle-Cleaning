@@ -21,17 +21,17 @@ const Register = () => {
       <input type="text" id='city' name='city' autoComplete='address-level2' required placeholder='e.g Benin city' className='text-center border-b-2 outline-0 mb-6'/>
       <div className="flex justify-center items-center gap-2 my-2">
          <label htmlFor="gender" className='block'>Male</label>
-      <input type="radio" id='radio' name='radio' required className='text-center'/>
+      <input type="radio" id='radio' name='radio' required value="Male" className='text-center'/>
       <label htmlFor="gender" className='block'>Female</label>
-      <input type="radio" id='radio' name='radio' required className='text-center'/>
+      <input type="radio" id='radio' name='radio' required value="Female" className='text-center'/>
       </div>
       <div className="flex flow-row text-sm justify-center items-center gap-2 my-3">
         <label htmlFor="select" className='block'>Home Cleaning</label>
-      <input type="checkbox" />
+      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='on' />
       <label htmlFor="select" className='block'>Office Cleaning</label>
-      <input type="checkbox" />
+      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='on' />
       <label htmlFor="select" className='block'>Home Laundry</label>
-      <input type="checkbox" />
+      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='on'/>
       </div>
       <label htmlFor="message" className='block text-start pl-23 mt-6'>Details about yourself:</label>
       <textarea name="message" id="message" cols="30" rows="10" placeholder='How qualified and deligent are you?' required className='border-2 outline-0 text-sm rounded-2xl p-2'></textarea>

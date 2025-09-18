@@ -5,7 +5,7 @@ const Hero = () => {
     <>
     <section>
       <div className='grid lg:grid-cols-2 lg:max-w-4xl lg:m-auto'>
-        <div className='flex flex-row custom-sm:flex-row custom-sm:max-w-lg custom-md:flex-row gap-4 py-16 px-4 m-auto '>
+        <div className='flex flex-col custom-sm:flex-row custom-sm:max-w-lg custom-md:flex-row gap-4 py-16 px-4 m-auto '>
       <div className='w-80 sm:w-70 lg:w-40 m-auto hover:scale-105 transition duration-300 ease-in-out cursor-progress border-r-2'>
         <img src="home-cleaning.jpg" alt="Home cleaner" />
       </div>
