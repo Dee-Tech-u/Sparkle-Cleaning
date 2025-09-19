@@ -25,13 +25,14 @@ const Register = () => {
       <label htmlFor="gender" className='block'>Female</label>
       <input type="radio" id='radio' name='radio' required value="Female" className='text-center'/>
       </div>
-      <div className="flex flow-row text-sm justify-center items-center gap-2 my-3">
+      <div className="flex flex-col text-sm justify-center items-center gap-2 my-3">
+        <div className='text-lg font-bold mt-4'>Select your field of work</div>
         <label htmlFor="select" className='block'>Home Cleaning</label>
-      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='on' />
+      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='Home Cleaning' />
       <label htmlFor="select" className='block'>Office Cleaning</label>
-      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='on' />
+      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='Office Cleaning' />
       <label htmlFor="select" className='block'>Home Laundry</label>
-      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='on'/>
+      <input type="checkbox" id='myCheckbox' name='myCheckbox' value='Home Laundry'/>
       </div>
       <label htmlFor="message" className='block text-start pl-23 mt-6'>Details about yourself:</label>
       <textarea name="message" id="message" cols="30" rows="10" placeholder='How qualified and deligent are you?' required className='border-2 outline-0 text-sm rounded-2xl p-2'></textarea>

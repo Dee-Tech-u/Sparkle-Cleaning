@@ -9,7 +9,7 @@ const Contact = () => {
       <div className='flex flex-col items-center max-w-2xl gap-5'>
         <div className="flex flex-row items-center gap-4">
       <div>
-        <h1 className='text-6xl font-bold text-black flex'>Contact us</h1>
+        <h1 className='text-2xl custom-sm:text-6xl font-bold text-black flex'>Contact us</h1>
       </div>
           <div>
             <FaLongArrowAltDown className='text-2xl text-blue-700'/>

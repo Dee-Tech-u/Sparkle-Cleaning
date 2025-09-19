@@ -12,7 +12,6 @@ const SwipperCarousel = () => {
       modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
-      navigation
       pagination={{ clickable: true }}
       loop={true}
       autoplay={{

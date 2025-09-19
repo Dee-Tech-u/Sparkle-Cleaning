@@ -14,8 +14,8 @@ const Services = () => {
       <div className="size-70 bg-[#f3f4f6]  py-6 m-auto shadow-2xl rounded-2xl border-b-2 border-blue-700">
         <div className='flex items-center justify-between gap-1 p-4 '> 
         <div className='flex flex-row'>
-          <MdHome className='text-blue-700 text-2xl' />
-          <h3 className='font-bold text-black flex '>Residential Cleaning </h3>
+          <MdHome className='text-blue-700 text-3xl' />
+          <h3 className='text-lg font-bold text-black flex '>Residential Cleaning </h3>
           </div>
           </div>
           <p className='text-sm p-2 text-[#acadaf]'>Eco-friendly cleaning for your home, ensuring a spotless and healthy living environment.</p>
@@ -28,7 +28,7 @@ const Services = () => {
         <h1 className='text-7xl custom-sm:text-5xl text-blue-600'>BOOK</h1>
         <p className='text-[#acadaf]'>Now</p>
         <Link to="/contact">
-        <button className='bg-blue-500 w-full custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
+        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
         </Link>
       </div>
     </div>
@@ -39,8 +39,8 @@ const Services = () => {
       <div className="size-70 bg-[#f3f4f6]  py-6 m-auto shadow-2xl rounded-2xl border-b-2 border-blue-700">
         <div className='flex items-center justify-between gap-1 p-4 '> 
         <div className='flex flex-row'>
-          <HiBuildingStorefront className='text-blue-700 text-2xl' />
-          <h3 className='font-bold text-black flex '>Commercial Cleaning </h3>
+          <HiBuildingStorefront className='text-blue-700 text-3xl' />
+          <h3 className='text-lg font-bold text-black flex '>Commercial Cleaning </h3>
           </div>
           </div>
           <p className='text-sm p-2 text-[#acadaf]'>Professional services for offices and businesses to maintain a productive environment.</p>
@@ -53,7 +53,7 @@ const Services = () => {
         <h1 className='text-7xl custom-sm:text-5xl text-blue-600'>BOOK</h1>
         <p className='text-[#acadaf]'>Now</p>
         <Link to="/contact">
-        <button className='bg-blue-500 w-full custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
+        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
         </Link>
       </div>
     </div>
@@ -64,8 +64,8 @@ const Services = () => {
       <div className="size-70 bg-[#f3f4f6]  py-6 m-auto shadow-2xl rounded-2xl border-b-2 border-blue-700 cursor-progress">
         <div className='flex items-center justify-between gap-1 p-4 '> 
         <div className='flex flex-row'>
-          <HiCog className='text-blue-700 text-2xl' />
-          <h3 className='font-bold text-black flex '>Deep Cleaning</h3>
+          <HiCog className='text-blue-700 text-3xl' />
+          <h3 className='text-lg font-bold text-black flex '>Deep Cleaning</h3>
           </div>
           </div>
           <p className='text-sm p-2 text-[#acadaf]'>Thorough deep cleaning to tackle tough grime and refresh every corner.</p>
@@ -78,7 +78,7 @@ const Services = () => {
         <h1 className='text-7xl custom-sm:text-5xl text-blue-600'>BOOK</h1>
         <p className='text-[#acadaf]'>Now</p>
         <Link to="/contact">
-        <button className='bg-blue-500 w-full custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
+        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
         </Link>
       </div>
     </div>
@@ -89,8 +89,8 @@ const Services = () => {
       <div className="group size-70 bg-[#f3f4f6]  py-6 m-auto shadow-2xl rounded-2xl border-b-2 border-blue-700 hover:scale-90 transition duration-300 ease-linear cursor-progress">
         <div className='flex items-center justify-between gap-1 p-4 group-hover:scale-105 transition duration-300 ease-linear'> 
         <div className='flex flex-row gap-1'>
-          <FaTruckMoving className='text-blue-700 text-2xl' />
-          <h3 className='font-bold text-black flex '>Move-In/Out Packing</h3>
+          <FaTruckMoving className='text-blue-700 text-3xl' />
+          <h3 className='text-lg font-bold text-black flex '>Move-In/Out Packing</h3>
           </div>
           </div>
           <p className='text-sm p-4 text-[#acadaf] group-hover:scale-95 transition duration-300 ease-linear'>Expert cleaning for your seemless transitions during moves.</p>
@@ -103,7 +103,7 @@ const Services = () => {
         <h1 className='text-7xl custom-sm:text-5xl text-blue-600 group-hover:scale-90 transition duration-300 ease-linear'>BOOK</h1>
         <p className='text-[#acadaf]'>Now</p>
         <Link to="/contact">
-        <button className='bg-blue-500 w-full custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-linear hover:animate-bounce cursor-pointer'>Book Now</button>
+        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-linear hover:animate-bounce cursor-pointer'>Book Now</button>
         </Link>
       </div>
     </div>
@@ -114,8 +114,8 @@ const Services = () => {
       <div className="group size-70 bg-[#f3f4f6]  py-6 m-auto shadow-2xl rounded-2xl border-b-2 border-blue-700 hover:bg-purple-900 hover:border-black transition duration-300 ease-in-out cursor-alias">
         <div className='flex items-center justify-between gap-1 p-4 '> 
         <div className='flex flex-row'>
-          <MdLocalLaundryService className='text-blue-700 text-2xl group-hover:text-4xl' />
-          <h3 className='font-bold text-black flex group-hover:text-2xl'>Home Laundry</h3>
+          <MdLocalLaundryService className='text-blue-700 text-3xl group-hover:text-4xl' />
+          <h3 className='text-lg font-bold text-black flex group-hover:text-2xl'>Home Laundry</h3>
           </div>
           </div>
           <p className='text-sm p-2 text-[#acadaf] group-hover:scale-90 transition duration-300 ease-linear'>With eco-friendly soaps that keeps the quality and longivity of your cloths intact, and you don't need to leave the comfort of your home.</p>
@@ -128,7 +128,7 @@ const Services = () => {
         <h1 className='text-7xl custom-sm:text-5xl text-blue-600'>BOOK</h1>
         <p className='text-[#acadaf]'>Now</p>
         <Link to="/contact">
-        <button className='bg-blue-500 w-full custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out group-hover:scale-110 cursor-pointer'>Book Now</button>
+        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out group-hover:scale-110 cursor-pointer'>Book Now</button>
         </Link>
       </div>
     </div>
