@@ -11,8 +11,8 @@ const Navbar = () => {
   }
   return (
   <>
-  <nav className='group bg-blue-900 shadow-lg flex items-center justify-between sm:px-15 lg:px-50 py-3 px-2 fixed top-0 left-0 w-full  z-10 '>
-    <div className='max-w-7xl mx-auto px-4 custom-sm:px-6 custom-md:px-8'>
+  <nav className='group bg-gray-800 shadow-lg flex items-center justify-between sm:px-15 lg:px-50 py-3 px-2 fixed top-0 left-0 w-full  z-10 '>
+    <div className='max-w-7xl mx-auto px-4 custom-sm:px-2 custom-md:px-8 w-full'>
       <div className='flex items-center justify-between h-16 w-full'>
         <div className='flex-shrink-0'>
            <Link to="/" className=' text-blue-700 text-2xl sm:text-2xl lg:text-3xl'>
@@ -49,6 +49,11 @@ const Navbar = () => {
     </div>
     </div>
     <div className={`fixed top-0 left-0 h-full w-64 bg-gray-800 transform ${isOpen ? 'translate-x-0' : '-translate-x-full' } transition-transform duration-300 ease-in-out custom-md:hidden`}>
+      <div className='flex-shrink-0 pt-4'>
+           <Link to="/" className='px-4 text-blue-700 text-2xl sm:text-2xl lg:text-3xl'>
+           SparkleCleaning
+    </Link>
+        </div>
       <div className='px-2 pt-2 pb-3 sp-y-1 custom-sm:px-3 mt-16'>
         <Link to="/" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
       Home

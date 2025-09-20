@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-  base:"/Sparkle-Cleaning/",
+ base:"/Sparkle-Cleaning/",
 });
