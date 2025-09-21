@@ -16,8 +16,8 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex flex-row justify-center items-center gap-7'>
-          <a href="https://wa.me/qr/OU3NPTAFYF67L1 "><MdWhatsapp className='text-green-700 text-6xl'/></a>
-          <a href="https://mail.google.com/mail/u/0/#inbox"><MdAttachEmail className='text-6xl text-red-400'/></a>
+          <a href="https://wa.me/qr/OU3NPTAFYF67L1 " target='_blank'><MdWhatsapp className='text-green-700 text-6xl'/></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox" target='_blank'><MdAttachEmail className='text-6xl text-red-400'/></a>
         </div>
       </div>
     </div>

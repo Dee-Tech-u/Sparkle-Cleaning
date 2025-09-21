@@ -97,7 +97,7 @@ const Register = () => {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting} className='block bg-blue-800 text-white h-10 w-30 m-auto my-6 rounded-3xl animate-pulse cursor-pointer'>Submit</button>
+      <button type="submit" disabled={state.submitting} formTarget='_blank' className='block bg-blue-800 text-white h-10 w-30 m-auto my-6 rounded-3xl animate-pulse cursor-pointer'>Submit</button>
       </div>
       </form>
     </section>
