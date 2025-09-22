@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa'
 const Reviews = () => {
   return (
     <>
-    <div className="py-16 px-4 m-auto">
+    <div className="py-30 px-4 m-auto">
           <h2 className='text-3xl font-bold text-blue-900 text-center'>Loved By Over Thousand Clients
           </h2>
           <p className='text-center text-md mb-10'>Discover the reviews from sastified clients over time of using our services</p>

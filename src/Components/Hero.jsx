@@ -18,7 +18,7 @@ const Hero = () => {
         <img src="laundry.jpg" alt="Home cleaner" />
       </div>
       <div className="size-70 custom-sm:w-50 custom-sm:h-60 bg-[#f3f4f6] text-center py-20 px-6 custom-sm:py-5 m-auto shadow-2xl rounded-2xl border-b-2 border-dotted border-blue-700">
-        <p className='text-sm text-[#575353]'>Our Sparkle Cleaning team can give you that perfect laundry touch, and turn those dirty cloths into admirable, sparkling cloths again with eco friendly soaps, that keeps the quality of the cloths, just in one call away.</p>
+        <p className='text-sm text-[#575353]'>Our Sparkle Cleaning team can give you that perfect laundry touch, and turn those dirty cloths into admirable, sparkling cloths again, with eco friendly soaps, that keeps the quality of the cloths, just in one call away.</p>
       </div>
       </div>
       <div className='flex flex-col custom-sm:flex-row custom-sm:max-w-lg custom-md:flex-row gap-4 py-16 px-4 m-auto bg-white'>
