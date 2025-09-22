@@ -36,7 +36,7 @@ const Service = () => {
         <h1 className='text-7xl custom-sm:text-5xl text-blue-600'>BOOK</h1>
         <p className='text-[#acadaf]'>Now</p>
         <Link to="/services">
-        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer'>Book Now</button>
+        <button className='bg-blue-500 w-24 h-9 custom-sm:w-25 rounded-4xl mt-6 transition duration-300 ease-in-out hover:animate-bounce cursor-pointer animate-pulse'>Book Now</button>
         </Link>
       </div>
     </div>

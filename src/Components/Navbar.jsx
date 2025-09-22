@@ -54,23 +54,23 @@ const Navbar = () => {
            SparkleCleaning
     </Link>
         </div>
-      <div className='px-2 pt-2 pb-3 sp-y-1 custom-sm:px-3 mt-16'>
-        <Link to="/" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
+      <div className='px-2 pt-2 pb-3 sp-y-1 custom-sm:px-3 mt-16 '>
+        <Link to="/" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:scale-105 transition duration-300 ease-linear' onClick={toggleMenu}>
       Home
       </Link>
-      <Link to="/about" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
+      <Link to="/about" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:scale-105 transition duration-300 ease-linear' onClick={toggleMenu}>
       About
       </Link>
-      <Link to="/services" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
+      <Link to="/services" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:scale-105 transition duration-300 ease-linear' onClick={toggleMenu}>
       Service
       </Link>
-      <Link to="/reviews" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
+      <Link to="/reviews" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:scale-105 transition duration-300 ease-linear' onClick={toggleMenu}>
       Reviews
       </Link>
-      <Link to="/contact" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
+      <Link to="/contact" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:scale-105 transition duration-300 ease-linear' onClick={toggleMenu}>
       Contact
       </Link>
-      <Link to="/register" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700' onClick={toggleMenu}>
+      <Link to="/register" className='block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:scale-105 transition duration-300 ease-linear' onClick={toggleMenu}>
       Register
       </Link>
       </div>
